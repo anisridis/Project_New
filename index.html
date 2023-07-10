@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            background-color: coral;
+            width: 50rem;
+            height: 50rem;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+
+        }
+        body{background-color:cadetblue;
+        }
+
+        legend{
+            color: blue;
+            font-size: 30px;
+        }
+
+        button{
+            font-size: 20px;
+            border-radius: 20px;
+            border-color: blueviolet;
+            cursor: pointer;
+            
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Contact Us</legend>
+            <ul>
+            <label for="First name">First Name</label>
+            <input type="text" name="First Name" placeholder="First Name" required>
+        </ul>
+        <ul>
+            <label for="Middle Name">Middle Name</label>
+            <input type="text" name="Middle Name" placeholder="Middle Name" required>
+        </ul>
+        <ul>
+            <label for="Last name">Last Name</label>
+            <input type="text" name="Last Name" placeholder="Last Name" required>
+        </ul>
+        <ul>
+            <label for="Create Password">Create password</label>
+            <input type="password" name="Create Password" placeholder="Create Password" required>
+        </ul>
+        <ul>
+            <label for="Confirm Password ">Confirm password</label>
+            <input type="Password" name="Confirm Password" placeholder="Confirm Password" required>
+        </ul>
+
+        <ul>
+
+
+            <ul>
+                <label for="date">Date of Birth</label>
+                <input type="date" name="date">
+                
+            </ul>
+            <br>
+
+            <label>Age</label>
+         <select>
+        <option selected>20</option>
+        <option>30</option>
+        <option>40</option>
+        <option>50</option>
+        <option>60</option>
+        </select>
+        </ul>
+
+        <ul>
+            <label>Sex</label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="female">female
+        </ul>
+
+        <ul>
+            <label>States</label>
+            <select>
+           <option selected>Abuja</option>
+           <option>Lagos</option>
+           <option>Abeokuta</option>
+           <option>Ibadan</option>
+           <option>osogbo</option>
+           <option>Akure</option>
+           </select>
+        </ul>
+
+        <ul>
+            <label>Local Government</label>
+                     <select>
+                    <option selected>Abeokuta South</option>
+                    <option>ikeja south</option>
+                    <option>ayede north</option>
+                    <option>Ibadan North</option>
+                    <option>osogbo east</option>
+                    <option>Akure South</option>
+                    </select>
+        </ul>
+
+        <ul>
+            <select>
+                <option>+234</option>
+                <option>+241</option>
+                <option>+337</option>
+                <option>+448</option>
+                <option>+665</option>
+                <option>+755</option>
+                </select>
+
+            <label for="id">Enter Phone Number:</label>
+            <input type="tel" id="tel" name="tel" pattern="[0-9]{3} [0-9]{3}-[0-9]{4}">
+        </ul>
+
+        <ul>
+
+            <select>
+                <option>Degree Certificate</option>
+                <option>Birth Certificate</option>
+                <option>Certificate of Origin</option>
+                <option>Curriculum Vitae</option>
+                <option>Secondary School Certificate</option>
+                <option>Others</option>
+                </select>
+
+
+            <label for="File">File</label>
+            <input type="file" name="file" accept=".jpeg .pdf">
+            
+        </ul>
+
+
+        
+        
+
+        <ul>
+            <button>submit</button>
+        </ul>
+
+
+
+
+
+        </fieldset>
+
+
+
+
+    </form>
+</body>
+</html>
